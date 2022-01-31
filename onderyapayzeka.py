@@ -24,11 +24,6 @@ def record(ask = False):
             speak('sistem çalışmıyor')
         return voice
 def response(voice):
-    if 'Sirius' in voice:
-        speak('Ne Sirius mu yani köle')
-    
-    if 'Utkan' in voice:
-        speak('Yılan başlı amını 50 defa siktiğim orosbu')
        
     if 'nasılsın' in voice:
         speak('iyi senden')
